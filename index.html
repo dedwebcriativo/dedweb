@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <link href="images/favicon.png" rel="shortcut icon" />
     <meta name="author" content="Guilherme Vaz">
+    <meta content="Agência de designer com foco em ecommerce e marketing digital. Constantemente atualizamos nossa base de dados com as mais recentes novidades em tecnologias. " name="description">
+    <meta content="" name="keywords">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
@@ -27,6 +29,51 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+      
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 2px;
+      }
+      
+      #myBtn:hover {
+        background-color: #555;
+      }
+      </style>
+      <button onclick="topFunction()" id="myBtn" class="icon-chevron-up" title="Go to top"></button>
+      <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+        } else {
+        mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
   </head>
   <body>
 
@@ -144,8 +191,8 @@
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
-              <span>O que realmente fazemos</span>
-              <h2>Nossos serviços</h2>
+              <span>O que nós dominamos</span>
+              <h2>Confere ai</h2>
             </div>
           </div>
           <div class="row">
@@ -246,7 +293,7 @@
           <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
               <span>Portfolio</span>
-              <h2>Confira alguns de nossos trabalhos</h2>
+              <h2>Alguns jobs</h2>
             </div>
           </div>
           <div class="row no-gutters">
@@ -363,7 +410,7 @@
           <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
               <span>Compartilhando</span>
-              <h2>Nossas conquistas</h2>
+              <h2>Algumas conquistas</h2>
             </div>
           </div>
           <div class="row d-flex justify-content-start">
